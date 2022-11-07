@@ -1,0 +1,23 @@
+name: 🔥 Firewall Change Request 🔥
+description: Submit a change request for firewall changes
+title: "[Firewall Change Request]"
+labels: "[firewall]"
+assignees: karimelmel
+body:
+  - type: input
+    id: SystemId
+    attributes:
+      label: System Id
+      description: What is the id of the system you are requesting an opening for?
+      placeholder: e.g. XX-2000
+    validations:
+      required: false
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Environment
+      description: What environment are you requesting a change for? You may select more than one.
+      options: 
+        - label: Dev
+        - label: Test
+        - label: Prod
