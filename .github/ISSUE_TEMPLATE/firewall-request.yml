@@ -44,4 +44,4 @@ body:
       options: 
         - label: Yes
         - label: No
-        - label: Service is already publicly exposed
+        - label: "Service is already publicly exposed"
