@@ -36,3 +36,9 @@ body:
       placeholder: e.g. AKS Cluster X or Foundation network
     validations:
       required: true
+  - type: checkboxes
+    id: ExposureCheckbox
+    description: Are you publicly exposing the service as a result of this change?
+    options: 
+      - label: Yes
+      - label: No
