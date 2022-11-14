@@ -7,7 +7,7 @@ body:
     attributes:
       value: "## Firewall Change Request form"
   - type: markdown
-    attrbibutes:
+    attributes:
      value: |
       This form should be used whenever making changes to a Network Security Group. The issue can then be linked to a Pull Request that closes the issue.
   - type: input
