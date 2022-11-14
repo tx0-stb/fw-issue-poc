@@ -28,4 +28,11 @@ body:
       options: 
         - label: Authentication
         - label: Authorization
-          required: true
+  - type: input
+    id: Traffic
+    attributes:
+      label: Source and Destination
+      description: What the source and destination system?
+      placeholder: e.g. AKS Cluster X or Foundation network
+    validations:
+      required: true
