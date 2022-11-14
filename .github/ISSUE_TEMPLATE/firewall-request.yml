@@ -66,7 +66,7 @@ body:
     id: additional
     attributes:
       label: Additional Information
-      Description: Do you want to add any additional information?
+      description: Do you want to add any additional information?
       value: |
         additional information about the change
         ..
