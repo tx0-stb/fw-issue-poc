@@ -28,4 +28,4 @@ body:
       options: 
         - label: Authentication
         - label: Authorization
-        required: true
+          required: true
