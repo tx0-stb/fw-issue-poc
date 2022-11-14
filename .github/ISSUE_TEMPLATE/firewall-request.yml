@@ -42,5 +42,6 @@ body:
       label: Exposure
       description: Are you publicly exposing the service as a result of this change?
       options: 
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
+        - label: "Service already has public exposure"
