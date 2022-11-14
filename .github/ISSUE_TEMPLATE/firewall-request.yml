@@ -69,6 +69,5 @@ body:
       Description: Do you want to add any additional information?
       value: |
       additional information about the change..
-
     validations:
       required: false
