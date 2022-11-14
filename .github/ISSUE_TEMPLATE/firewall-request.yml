@@ -62,3 +62,12 @@ body:
       placeholder: e.g. no encryption due to compatibility
     validations:
       required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      Description: Do you want to add any additional information?
+      value: |
+      
+    validations:
+      required: false
