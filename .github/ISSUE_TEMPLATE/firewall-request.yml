@@ -39,9 +39,8 @@ body:
   - type: checkboxes
     id: ExposureCheckbox
     attributes:
-      label: exposure
+      label: Exposure
       description: Are you publicly exposing the service as a result of this change?
       options: 
         - label: Yes
         - label: No
-        - label: "Service is already publicly exposed"
