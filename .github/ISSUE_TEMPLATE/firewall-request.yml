@@ -54,5 +54,3 @@ body:
         - label: "Yes"
         - label: "No"
         - label: Partially
-    - type: input
-    
