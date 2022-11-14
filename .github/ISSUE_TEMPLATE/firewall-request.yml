@@ -22,9 +22,11 @@ body:
         - label: Prod
   - type: checkboxes
     id: Authentication-Authorization
-    description: Does the service require authentication and/or authorization?
-    options: 
+    attributes:
+      label: authentication-authorization
+      description: Does the service require authentication and/or authorization?
+      options: 
         - label: Authentication
         - label: Authorization
-    validations:
-      required: true
+      validations:
+        required: true
