@@ -5,11 +5,10 @@ labels: "[firewall]"
 body:
   - type: markdown
     attributes:
-      value: "## Firewall Change Request form"
+      value: "# Firewall Change Request form"
   - type: markdown
     attributes:
-     value: |
-      This form should be used whenever making changes to a Network Security Group. The issue can then be linked to a Pull Request that closes the issue.
+     value: "## This form should be used whenever making changes to a Network Security Group. The issue can then be linked to a Pull Request that closes the issue."
   - type: input
     id: SystemId
     attributes:
