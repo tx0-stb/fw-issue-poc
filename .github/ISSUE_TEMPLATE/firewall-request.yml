@@ -54,3 +54,11 @@ body:
         - label: "Yes"
         - label: "No"
         - label: Partially
+  - type: input
+    id: TrafficEncryptionText
+    attributes:
+      label: Encryption
+      description: If No or Partially on the above please elaborate
+      placeholder: e.g. no encryption due to compatibility
+    validations:
+      required: false
