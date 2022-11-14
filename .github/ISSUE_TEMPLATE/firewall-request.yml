@@ -21,7 +21,7 @@ body:
         - label: Test
         - label: Prod
   - type: checkboxes
-    id: Authentication Authorization
+    id: Authentication-Authorization
     description: Does the service require authentication and/or authorization?
     options: 
       - label: Authentication
@@ -37,7 +37,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: Exposure
+    id: ExposureCheckbox
     description: Are you publicly exposing the service as a result of this change?
     options: 
       - label: Yes
@@ -45,14 +45,14 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: Encryption
+    id: EncryptionCheckbox
     description: Is the traffic allowed encrypted in transit?
     options: 
       - label: Yes
       - label: No
       - label: Partially
   - type: input
-    id: Traffic
+    id: TrafficEncryptionText
     attributes:
       label: Encryption
       description: If No or Partially on the above please elaborate
